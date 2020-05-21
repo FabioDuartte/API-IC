@@ -1,6 +1,9 @@
 const express = require('express');
 
-const User = require('../models/User');
+// vocẽ digitou assim
+// const User = require('../models/User');
+// isso é o correto
+const User = require('../models/user');
 
 const router = express.Router();
 
